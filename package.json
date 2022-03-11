@@ -1,0 +1,10 @@
+{
+    "dependencies": {
+        "@types/superagent": "^4.1.12",
+        "caver-js": "^1.6.4",
+        "ethers": "^5.0.32",
+        "eventcontainer": "^0.0.4",
+        "skyutil": "^0.0.12",
+        "superagent": "^6.1.0"
+    }
+}

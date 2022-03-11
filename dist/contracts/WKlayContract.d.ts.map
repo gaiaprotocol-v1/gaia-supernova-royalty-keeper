@@ -1,0 +1,1 @@
+{"version":3,"file":"WKlayContract.d.ts","sourceRoot":"","sources":["../../src/contracts/WKlayContract.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,SAAS,EAAE,MAAM,QAAQ,CAAC;AAEnC,OAAO,YAAY,MAAM,yBAAyB,CAAC;AAEnD,cAAM,aAAc,SAAQ,YAAY;;IAMvB,QAAQ,CAAC,MAAM,EAAE,SAAS,GAAG,OAAO,CAAC,IAAI,CAAC;CAG1D;;AAED,wBAAmC"}
