@@ -11,7 +11,7 @@ setInterval(async () => {
         try {
             const balance = await WKlayContract_1.default.balanceOf(Klaytn_1.default.walletAddress);
             await WKlayContract_1.default.withdraw(balance);
-            await Klaytn_1.default.send("0xEfaA075D8478c81Bde39795dF7588b7BEbA7e192", balance.mul(9).div(10));
+            await Klaytn_1.default.send("0xBd297DacCD1E9B6ec33D13a20765B4acF0d77333", balance.mul(9).div(10));
         }
         catch (e) {
             console.error(e);

