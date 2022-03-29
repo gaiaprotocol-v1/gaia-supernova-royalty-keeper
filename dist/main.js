@@ -7,7 +7,7 @@ const Klaytn_1 = __importDefault(require("./contracts/Klaytn"));
 const WKlayContract_1 = __importDefault(require("./contracts/WKlayContract"));
 setInterval(async () => {
     const now = new Date();
-    if (now.getHours() === 0 && now.getMinutes() === 0) {
+    if (now.getHours() === 12 && now.getMinutes() === 0) {
         try {
             const balance = await WKlayContract_1.default.balanceOf(Klaytn_1.default.walletAddress);
             await WKlayContract_1.default.withdraw(balance);

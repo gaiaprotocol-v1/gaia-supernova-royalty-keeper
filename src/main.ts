@@ -4,8 +4,8 @@ import WKlayContract from "./contracts/WKlayContract";
 setInterval(async () => {
     const now = new Date();
 
-    // 자정에 실행
-    if (now.getHours() === 0 && now.getMinutes() === 0) {
+    // 점심에 실행
+    if (now.getHours() === 12 && now.getMinutes() === 0) {
         try {
             const balance = await WKlayContract.balanceOf(Klaytn.walletAddress!);
             await WKlayContract.withdraw(balance);
