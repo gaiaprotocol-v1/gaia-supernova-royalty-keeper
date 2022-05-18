@@ -4,7 +4,7 @@ import { BigNumber } from "ethers";
 
 class Klaytn {
 
-    public caver = new Caver("http://klaytn-node.klu.bs:9092");
+    public caver = new Caver("https://klaytn01.fandom.finance");
     public walletAddress = process.env.PUBLIC_KEY;
 
     constructor() {

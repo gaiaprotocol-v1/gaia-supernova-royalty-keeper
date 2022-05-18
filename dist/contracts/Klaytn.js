@@ -5,7 +5,7 @@ require("dotenv/config");
 const ethers_1 = require("ethers");
 class Klaytn {
     constructor() {
-        this.caver = new Caver("http://klaytn-node.klu.bs:9092");
+        this.caver = new Caver("https://klaytn01.fandom.finance");
         this.walletAddress = process.env.PUBLIC_KEY;
         this.caver.wallet.add(new this.caver.wallet.keyring.singleKeyring(this.walletAddress, new this.caver.wallet.keyring.privateKey(process.env.PRIVATE_KEY)));
         this.caver.klay.accounts.wallet.add(process.env.PRIVATE_KEY, process.env.PUBLIC_KEY);
